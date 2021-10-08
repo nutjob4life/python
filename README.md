@@ -13,7 +13,7 @@ Do something like the following:
 $ git clone …
 $ cd python
 $ python3 -m venv .
-$ bin/pip install --quiet --upgrade setuptools wheel pip
+$ bin/pip install --quiet --upgrade setuptools wheel pip build
 $ bin/pip install --requirement requirements.txt
 $ bin/python make-links.py
 ```
