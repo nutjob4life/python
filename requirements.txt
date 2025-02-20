@@ -1,14 +1,18 @@
-black             ~= 23.11.0
+awscli-local      ~= 0.22.0
+black             ~= 24.4.2
 check-manifest    ~= 0.47
+detect-secrets @ git+https://github.com/NASA-AMMOS/slim-detect-secrets.git@exp
 docutils          ~= 0.15
 flake8            ~= 6.1.0
+localstack        ~= 4.0.3
 Markdown          ~= 3.3.4
 mypy              ~= 1.7.0
+pkginfo           ~= 1.10.0  # Required for twine to work with Python 3.11.10's build 1.0.3
 pqcli             ~= 1.0.2
 pre-commit        ~= 3.5.0
 pytest            ~= 6.2.5
 Sphinx            ~= 4.0.3
 sphinx-rtd-theme  ~= 1.0.0
+terraform-local   ~= 0.20.0
 tox               ~= 3.24.3
-twine             ~= 3.4.1
-detect-secrets @ git+https://github.com/NASA-AMMOS/slim-detect-secrets.git@exp
+twine             ~= 5.1.1

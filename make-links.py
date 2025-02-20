@@ -12,10 +12,10 @@ _filter = frozenset([
     'Activate.ps1',
     'pip',
     'pip3',
-    'pip3.9',
+    'pip3.11',
     'python',
     'python3',
-    'python3.9',
+    'python3.11',
 ])
 
 
